@@ -1,0 +1,14 @@
+.Package {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 150px !important;
+
+    &-packages {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+}

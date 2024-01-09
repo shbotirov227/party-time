@@ -1,0 +1,107 @@
+.Footer {
+    background-color: #0A075F;
+    padding: 60px 0;
+
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+    };
+
+    &-left {
+        width: 20%;
+    }
+
+    &-text {
+        color: #F3F3F3;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin: 25px 0;
+    }
+
+    &-icons {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-service {
+        color: #F3F3F3;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 200%;
+    }
+
+    .allServices {
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .service-title {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+    }
+
+    &-services {
+        width: 30%;
+
+        li {
+            margin-bottom: 10px;
+        }
+
+    }
+
+    &-inputSection {
+
+        &-text {
+            color: #F3F3F3;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            margin: 25px 0 20px 0;
+        }
+
+        &-input {
+            width: 65%;
+            color: #959595;
+            font-size: 12.159px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            background-color: transparent;
+            border: none;
+            outline: none;
+        }
+
+        .inputSection-inputContent {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #FFF;
+            position: relative;
+            padding: 25px 25px;
+            border: 2px solid #F1F1F1;
+            border-radius: 45px;    
+        }
+
+        .btn-secondary {
+            height: 88%;
+            position: absolute;
+            right: 5px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+}

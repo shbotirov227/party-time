@@ -1,0 +1,45 @@
+.MakeEvent {
+    background-color: #eee1ff;
+    padding: 40px;
+    margin-bottom: 135px;
+
+    &-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-img {
+        position: relative;
+        top: 0;
+    }
+
+    &-title {
+        color: #000;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    &-text {
+        width: 55%;
+        color: #272727;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 20px 0;
+    }
+
+    &-content {
+        width: 50%;
+        margin-left: 60px;
+    }
+
+    .btn-secondary {
+        font-size: 18px;
+        font-weight: 700;
+        padding: 20px 90px;
+    }
+}
