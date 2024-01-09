@@ -44,7 +44,7 @@ const OtherServices = () => {
 
 	return (
 		<div className="OtherServices container">
-			<h2 className="Blog-title">OtherServices</h2>
+			<h2 className="Blog-title">Other Services</h2>
 
 			<div className="OtherServices-services">
 				{

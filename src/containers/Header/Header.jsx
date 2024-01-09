@@ -13,10 +13,11 @@ const Header = () => {
 				<div className="Header-navigation">
 					<Link to="/"><img src={Logo} alt="logo" /></Link>
 					<div>
-						<Link to="/" className="Header-link">Themed events</Link>
-						<Link to="/" className="Header-link">Marquee parties</Link>
-						<Link to="/" className="Header-link">Special celebrations</Link>
-						<Link to="tel:+998939052733" className="Header-link">Contact</Link>
+						<Link to="/" className="Header-link">Events</Link>
+						<Link to="/" className="Header-link">Services</Link>
+						<Link to="/" className="Header-link">Blog</Link>
+						<Link to="/" className="Header-link">Subscribes</Link>
+						<Link to="tel:+998939052733" className="Header-link">Contact us</Link>
 						<Link to="/" className="btn-primary">Login</Link>
 					</div>
 				</div>
