@@ -53,6 +53,7 @@ const Footer = () => {
                 </div>
 
             </div>
+                <h4 className="copyright container">Copyright © 2023 - 2024 shbotirov227 ®. <br></br>All rights reserved</h4>
         </div>
     )
 }

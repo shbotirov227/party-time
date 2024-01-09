@@ -1,6 +1,6 @@
 .Footer {
     background-color: #0A075F;
-    padding: 60px 0;
+    padding: 60px 0 30px 0;
 
     &-inner {
         display: flex;
@@ -103,5 +103,17 @@
             bottom: 0;
             margin: auto;
         }
+    }
+
+    .copyright {
+        color: #FEFEFE;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        border-top: 1px solid #4C4D8B;
+        text-align: center;
+        padding-top: 35px;
+        margin-top: 80px;
     }
 }
