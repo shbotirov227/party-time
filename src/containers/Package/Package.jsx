@@ -44,7 +44,7 @@ const Package = () => {
 	]
 
 	return (
-		<div className="Package container">
+		<div className="Package container" id="subscribes">
 			<h3 className="Blog-title">Pricing</h3>
 			
 			<div className="Package-packages">

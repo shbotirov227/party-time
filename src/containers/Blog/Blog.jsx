@@ -7,6 +7,7 @@ import BlogCardImg3 from "../../assets/images/blogCardImg3.png";
 import "./Blog.scss";
 
 const Blog = () => {
+
 	const data = [
 		{
 			id: 0,
@@ -34,7 +35,7 @@ const Blog = () => {
 	]
 
 	return (
-		<div className="Blog container">
+		<div className="Blog container" id="blog">
 			<h2 className="Blog-title">Blog</h2>
 			<p className="Blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 

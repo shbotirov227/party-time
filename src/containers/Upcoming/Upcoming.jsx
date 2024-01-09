@@ -75,7 +75,7 @@ const Upcoming = () => {
 	];
 	
 	return (
-		<div className="Upcoming container">
+		<div className="Upcoming container" id="events">
 			<div className="Upcoming-selectSection">
 				<h2 className="Upcoming-title">Current Events</h2>
 				<div>

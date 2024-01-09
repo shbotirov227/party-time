@@ -7,7 +7,7 @@ import "./Footer.scss";
 
 const Footer = () => {
     return (
-        <div className="Footer">
+        <div className="Footer" id="footer">
             <div className="Footer-inner container">
 
                 <div className="Footer-left">

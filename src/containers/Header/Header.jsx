@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import Logo from "../../assets/images/logo.png";
 import HeroImg2 from "../../assets/images/girls-removebg.png";
 
@@ -13,11 +14,11 @@ const Header = () => {
 				<div className="Header-navigation">
 					<Link to="/"><img src={Logo} alt="logo" /></Link>
 					<div>
-						<Link to="/" className="Header-link">Events</Link>
-						<Link to="/" className="Header-link">Services</Link>
-						<Link to="/" className="Header-link">Blog</Link>
-						<Link to="/" className="Header-link">Subscribes</Link>
-						<Link to="tel:+998939052733" className="Header-link">Contact us</Link>
+						<HashLink to="/#events" className="Header-link">Events</HashLink>
+						<HashLink to="/#services" className="Header-link">Services</HashLink>
+						<HashLink to="/#blog" className="Header-link">Blog</HashLink>
+						<HashLink to="/#subscribes" className="Header-link">Subscribes</HashLink>
+						<HashLink to="/#footer" className="Header-link">Contact us</HashLink>
 						<Link to="/" className="btn-primary">Login</Link>
 					</div>
 				</div>

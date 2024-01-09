@@ -43,7 +43,7 @@ const OtherServices = () => {
 
 
 	return (
-		<div className="OtherServices container">
+		<div className="OtherServices container" id="services">
 			<h2 className="Blog-title">Other Services</h2>
 
 			<div className="OtherServices-services">
