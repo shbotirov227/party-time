@@ -1,0 +1,25 @@
+.About {
+    
+    &-title {
+        text-align: center;
+        color: #0A075F;
+        font-size: 25pt;
+        margin-bottom: 50px;
+    }
+
+    &-text {
+        font-size: 16pt;
+        color: #737373;
+        margin: 0;
+        padding-bottom: 30px;
+        line-height: 45px;
+        margin-bottom: 100px;
+    }
+    .Header {
+        margin-bottom: 100px;
+        box-shadow: -5px 10px 10px 4px rgba(34, 60, 80, 0.3);
+        .placesSection, &-heroSection {
+            display: none;
+        }
+    }
+}

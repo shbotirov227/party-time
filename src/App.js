@@ -1,11 +1,7 @@
-import { BrowserRouter } from "react-router-dom";
-import Header from "./containers/Header/Header";
-import Footer from "./containers/Footer/Footer";
-import Upcoming from "./containers/Upcoming/Upcoming";
-import MakeEvent from "./containers/MakeEvent/MakeEvent";
-import Blog from "./containers/Blog/Blog";
-import Package from "./containers/Package/Package";
-import OtherServices from "./containers/OtherServices/OtherServices";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
 
 import "./assets/index.scss";
 
@@ -13,13 +9,11 @@ function App() {
 	return (
 		<div className="App">
 			<BrowserRouter>
-				<Header />
-				<Upcoming />
-				<OtherServices />
-				<MakeEvent />
-				<Package />
-				<Blog />
-				<Footer />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/about-us" element={<About />} />
+					<Route path="/contact" element={<Contact />} />
+				</Routes>
 			</BrowserRouter>
 		</div>
 	);
