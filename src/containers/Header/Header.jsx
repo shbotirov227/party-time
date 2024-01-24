@@ -20,7 +20,7 @@ const Header = () => {
 						<HashLink to="/#subscribes" className="Header-link">Subscribes</HashLink>
 						<Link to="/about-us" className="Header-link">About</Link>
 						<Link to="/contact" className="Header-link">Contact us</Link>
-						<Link to="/" className="btn-primary">Login</Link>
+						<Link to="/signup" className="btn-primary">Sign up</Link>
 					</div>
 				</div>
 
